@@ -1,0 +1,28 @@
+body{
+    background-image: url("https://c.tenor.com/gqnx6mZiYK4AAAAC/hobbies.gif");
+}
+h1{
+    color: aquamarine;
+}
+h2{
+    color: black;
+}
+h3{
+    color: beige;
+}
+h4{
+    color: beige;
+}
+a{
+    color: black;
+}
+a{
+    font-size: larger;
+    font-weight: bold;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
