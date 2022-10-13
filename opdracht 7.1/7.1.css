@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    border: 0;
+    padding: 0;
+  }
+  p{
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow',;
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+  }
+  h1{
+    color: rgb(210, 211, 213);
+    font-weight:bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+    font-size: large;
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+  }
+  .item1{
+    width: 100%;
+    height: 99px;
+    background-color:rgb(185, 37, 18)
+  }
+  .item2{
+    width: 100%;
+    height: 299px;
+    background-color:rgb(190, 182, 32)
+  }
+  .item3{
+    width: 100%;
+    height: 299px;
+    background-color:rgb(190, 70, 33)
+  }
+  .item4{
+    width: 100%;
+    height: 299px;
+    background-color:rgb(112, 205, 36)
+  }
+
+
+  @media only screen and (max-width: 1000px) {
+    p{
+      color: rgb(234, 223, 223);
+    }
+    .item1{
+      width: 100%;
+      height: 79px;
+      background-color:rgb(139, 31, 93)
+    }
+    .item2{
+      width: 100%;
+      height: 299px;
+      background-color:rgb(247, 50, 66)
+    }
+    .item3{
+      width: 100%;
+      height: 299px;
+      background-color:rgb(59, 185, 244)
+    }
+    .item4{
+      width: 100%;
+      height: 299px;
+      background-color:rgb(47, 101, 219)
+
+    }
+  }
+  @media only screen and (max-width: 500px) {
+    p{
+      color: rgb(232, 226, 226);
+    }
+    .item1{
+      width: 100%;
+      height: 179px;
+      background-color:rgb(67, 115, 245)
+    }
+    .item2{
+      width: 100%;
+      height: 249px;
+      background-color:rgb(57, 197, 136)
+    }
+    .item3{
+      width: 100%;
+      height: 249px;
+      background-color:rgb(241, 51, 166)
+    }
+    .item4{
+      width: 100%;
+      height: 299px;
+      background-color:rgb(43, 92, 201)
+
+    }
+  }
